@@ -1,6 +1,18 @@
-<!DOCTYPE TEI.2 PUBLIC "-//TEI//DTD TEI Lite 1.0//EN"[
+<!DOCTYPE TEI.2 PUBLIC "-//TEI//DTD TEI Lite 1.0//EN" [
 
-     <!ENTITY florin CDATA "f" -- Dutch guilder sign -->
+    <!ENTITY apos    CDATA "&#x2019;"  --      52 -->
+    <!ENTITY deg     CDATA "&#x00B0;"  --      52 -->
+    <!ENTITY florin  CDATA "&#x0192;"  --      17 -->
+    <!ENTITY frac12  CDATA "&#x00BD;"  --       3 -->
+    <!ENTITY frac13  CDATA "&#x2153;"  --       1 -->
+    <!ENTITY ldquo   CDATA "&#x201C;"  --    2121 -->
+    <!ENTITY lsquo   CDATA "&#x2018;"  --       8 -->
+    <!ENTITY mdash   CDATA "&#x2014;"  --    2181 -->
+    <!ENTITY nbsp    CDATA "&#x00A0;"  --       1 -->
+    <!ENTITY ndash   CDATA "&#x2013;"  --       1 -->
+    <!ENTITY prime   CDATA "&#x2032;"  --      26 -->
+    <!ENTITY rdquo   CDATA "&#x201D;"  --    2103 -->
+    <!ENTITY rsquo   CDATA "&#x2019;"  --       8 -->
 
 ]>
 <TEI.2 lang=nl-1900>
@@ -8,6 +20,7 @@
 <fileDesc>
 <titleStmt>
 <title>Vijf weken in een luchtballon</title>
+<title type=uniform lang=fr>Cinq semaines en ballon, Dutch</title>
 <author key="Verne, Jules" ref="https://viaf.org/viaf/76323989/">Jules Verne (1828&ndash;1905)</author>
 <respStmt lang=en><resp>Transcription</resp> <name key="Hellingman, Jeroen">Jeroen Hellingman</name></respStmt> 
 <respStmt lang=en><resp>Transcription</resp> <name>Distributed Proofreaders Team</name></respStmt>
@@ -26,6 +39,8 @@
 
 <p lang=en>&availability.en;
 
+<p>Vertaling van <hi lang=fr><xref url="pg:4548">Cinq semaines en ballon</xref></hi> (1863). Een Engelse vertaling is beschikbaar als <hi lang=en><xref url="pg:3526">Five Weeks in a Balloon</xref></hi>; een Finse vertaling als <hi lang=fi><xref url="pg:49189">Viisi viikkoa ilmapallossa</xref></hi>.
+
 </availability>
 </publicationStmt>
 <sourceDesc>
@@ -43,14 +58,27 @@
 
 </encodingDesc>
 <profileDesc>
-<langUsage lang=nl>
-    <language id=nl-1900>Nederlands (Spelling De Vries-Te Winkel)</language>
-    <language id=nl>Nederlands</language>
-    <language id=en>Engels</language>
-    <language id=de>Duits</language>
-    <language id=grc>Grieks</language>
-    <language id=grc-Latn>Grieks (transcriptie)</language>
-</langUsage>
+    <langUsage lang=nl>
+        <language id=nl-1900>Nederlands (Spelling De Vries-Te Winkel)</language>
+        <language id=nl>Nederlands</language>
+        <language id=en>Engels</language>
+        <language id=fr>Frans</language>
+        <language id=fi>Fins</language>
+        <language id=de>Duits</language>
+        <language id=grc>Grieks</language>
+        <language id=grc-Latn>Grieks (transcriptie)</language>
+    </langUsage>
+    <textClass>
+        <keywords>
+            <list lang=en>
+                <item>Science fiction</item>
+                <item>Africa -- Fiction</item>
+                <item>Adventure stories</item>
+                <item>Balloons -- Fiction</item>
+                <item>Voyages and travels -- Fiction</item>
+            </list>
+        </keywords>
+    </textClass>
 </profileDesc>
 <revisionDesc>
 <list>
@@ -59,7 +87,7 @@
 </list>
 </revisionDesc>
 </teiHeader>
-<text>
+<text rend="stylesheet(style/classic.css)">
 <front id=frontmatter>
 <div1 id=cover type=Cover>
 
@@ -222,7 +250,7 @@
 
 <p>Voor het overige was de twijfel niet langer mogelijk; de toebereidselen voor de reis werden te Londen gemaakt, de fabrieken van Lyon hadden eene belangrijke bestelling van taf ontvangen voor de samenstelling van den luchtballon, eindelijk stelde het Britsche gouvernement het transportschip de Resolute, kapitein Pennet, ter beschikking van den doctor.
 
-<p>Terstond werden er duizenden aanmoedigingen gegeven, duizend gelukwenschen gedaan. De bijzonderheden der onderneming verschenen geheel in de Bulletins van het &ldquo;Aardrijkskundig genootschap&rdquo; van Parijs, een merkwaardig artikel werd gedrukt in de &ldquo;Nieuwe Jaarboeken van Reizen, Aardrijkskundige Geschiedenis en Oudheidkunde van V.A. Malte-Brun;&rdquo; een opstel in het <pb n=8 id=pb8>&ldquo;Tijdschrift voor algemeene Aardkennis&rdquo; door Dr. W. Koner, bewees zegevierend de mogelijkheid dezer reis, de kansen van goeden uitslag, de natuur der hinderpalen, de groote voordeelen eener luchtreis; hij keurde alleen het punt van vertrek af, waartoe hij liever Masuah, eene kleine haven van Abyssinië, wilde gekozen hebben, vanwaar James Bruce in 1768 vertrokken was, om de bronnen van den Nijl op te sporen. Overigens bewonderde hij onvoorwaardelijk den krachtigen geest van Dr. Ferguson.
+<p>Terstond werden er duizenden aanmoedigingen gegeven, duizend gelukwenschen gedaan. De bijzonderheden der onderneming verschenen geheel in de Bulletins van het &ldquo;Aardrijkskundig genootschap&rdquo; van Parijs, een merkwaardig artikel werd gedrukt in de &ldquo;Nieuwe Jaarboeken van Reizen, Aardrijkskundige Geschiedenis en Oudheidkunde van V. A. Malte-Brun;&rdquo; een opstel in het <pb n=8 id=pb8>&ldquo;Tijdschrift voor algemeene Aardkennis&rdquo; door Dr. W. Koner, bewees zegevierend de mogelijkheid dezer reis, de kansen van goeden uitslag, de natuur der hinderpalen, de groote voordeelen eener luchtreis; hij keurde alleen het punt van vertrek af, waartoe hij liever Masuah, eene kleine haven van Abyssinië, wilde gekozen hebben, vanwaar James Bruce in 1768 vertrokken was, om de bronnen van den Nijl op te sporen. Overigens bewonderde hij onvoorwaardelijk den krachtigen geest van Dr. Ferguson.
 
 <p>De &ldquo;<foreign lang=en>North American Review</foreign>&rdquo;, zag met eenig ongenoegen een zoodanigen roem voor Engeland bewaard, hij maakte van het voorstel van den doctor eene scherts en noodigde hem uit naar Amerika te komen, terwijl hij op zoo&apos;n goeden weg was.
 
@@ -577,18 +605,18 @@
 <p>Zie hier een kort begrip zijner verschillende berekeningen:
 
 <table>
-    <row><cell>Ferguson                     <cell>135 pond.
-    <row><cell>Kennedy                      <cell>153 <ditto>pond.</ditto>
-    <row><cell>Joe                          <cell>120 <ditto>pond.</ditto>
-    <row><cell>Eerste ballon                <cell>650 <ditto>pond.</ditto>
-    <row><cell>Tweede ballon                <cell>510 <ditto>pond.</ditto>
-    <row><cell>Schuitje en touw             <cell>280 <ditto>pond.</ditto>
-    <row><cell>Ankers, instrumenten, geweren, dekens, tent, verschillende gereedschappen    <cell>190 <ditto>pond.</ditto>
-    <row><cell>Vleesch, pemmican, beschuiten, thee, koffie, brandewijn  <cell>386 <ditto>pond.</ditto>
-    <row><cell>Water                        <cell>400 <ditto>pond.</ditto>
-    <row><cell>Toestel                      <cell>700 <ditto>pond.</ditto>
-    <row><cell>Gewicht van het waterstofgas <cell>276 <ditto>pond.</ditto>
-    <row><cell>Ballast                      <cell>200 <ditto>pond.</ditto>
+    <row><cell>Ferguson                     <cell>135 <seg id=segPond>pond.</seg>
+    <row><cell>Kennedy                      <cell>153 <seg copyOf=segPond>,,</seg>
+    <row><cell>Joe                          <cell>120 <seg copyOf=segPond>,,</seg>
+    <row><cell>Eerste ballon                <cell>650 <seg copyOf=segPond>,,</seg>
+    <row><cell>Tweede ballon                <cell>510 <seg copyOf=segPond>,,</seg>
+    <row><cell>Schuitje en touw             <cell>280 <seg copyOf=segPond>,,</seg>
+    <row><cell>Ankers, instrumenten, geweren, dekens, tent, verschillende gereedschappen    <cell>190 <seg copyOf=segPond>,,</seg>
+    <row><cell>Vleesch, pemmican, beschuiten, thee, koffie, brandewijn  <cell>386 <seg copyOf=segPond>,,</seg>
+    <row><cell>Water                        <cell>400 <seg copyOf=segPond>,,</seg>
+    <row><cell>Toestel                      <cell>700 <seg copyOf=segPond>,,</seg>
+    <row><cell>Gewicht van het waterstofgas <cell>276 <seg copyOf=segPond>,,</seg>
+    <row><cell>Ballast                      <cell>200 <seg copyOf=segPond>,,</seg>
     <row><cell>                             <cell>&mdash;&mdash;&mdash;
     <row><cell>                             <cell>Totaal 4000 pond.
 </table>
@@ -2183,7 +2211,7 @@
 
 
 <p><figure id=p242>
-<figDesc>Afbeelding van doctor Ferguson met randschrift: &ldquo;Excelsior <corr sic=Fergusson>Ferguson</corr>.&rdquo;</figDesc>
+<figDesc>Afbeelding van doctor Ferguson met randschrift: &ldquo;Excelsior <sic>Fergusson</sic>.&rdquo;</figDesc>
 </figure>
 
 
@@ -2204,96 +2232,54 @@
 <div1 id=toc type=Contents>
 <head>Inhoud.</head>
 
-<!-- Hoofdst. Blz. -->
 
-<p><ref target=ch1>I</ref>. Einde van eene zeer toegejuichte redevoering.&mdash;Voorstelling van doctor Ferguson.&mdash;&ldquo;Excelsior.&rdquo;&mdash;Persoonsbeschrijving van den doctor.&mdash;Een overtuigd fatalist.&mdash;Maaltijden in den <hi>Club der Reizigers.</hi>&mdash;Tallooze toosten. ... 1
-
-<p><ref target=ch2>II</ref>. Een artikel van den &ldquo;<foreign lang=en>Daily Telegraph</foreign>.&rdquo;&mdash;Oorlog der geleerde dagbladen.&mdash;De heer Petermann ondersteunt zijn vriend Dr. Ferguson.&mdash;Antwoord van den geleerden Koner.&mdash;Aangegane weddenschappen.&mdash;Verschillende voorstellen aan Ferguson gedaan. ... 6
-
-<p><ref target=ch3>III</ref>. De vriend van den doctor.&mdash;Van welken tijd hunne vriendschap dagteekende.&mdash;Dick Kennedy te Londen.&mdash;Onverwacht, maar niet geruststellend voorstel.&mdash;Weinig troostend spreekwoord.&mdash;Eenige namen uit het martelaarsboek van Afrika.&mdash;Voordeelen van een luchtballon.&mdash;Het geheim van doctor Ferguson. ... 9
-
-<p><ref target=ch4>IV</ref>. Afrikaansche onderzoekingen.&mdash;Barth, Richardson, Overweg, Werne, Brun-Rollet, Peney, Andrea Debono, Miani, Guillaume Lejean, Bruce, Krapf en Rebmann, Maizan, Roscher, Burton en Speke. ... 15
-
-<p><ref target=ch5>V</ref>. Droomen van Kennedy.&mdash;Lidwoorden en voornaamwoorden in het meervoud.&mdash;Vleierijen van Dick.&mdash;Wandeling over de kaart van Afrika.&mdash;Wat er tusschen de twee punten van den passer blijft.&mdash;Hedendaagsche tochten.&mdash;Speke en Grant.&mdash;Krapf, de Decken, de Heuglin. ... 19
-
-<p><ref target=ch6>VI</ref>. Een ongewoon bediende.&mdash;Hij ziet de wachters van Jupiter.&mdash;Dick en Joe twisten.&mdash;De twijfel en het geloof.&mdash;De weging.&mdash;Joe Wellington.&mdash;Hij ontvangt eene halve kroon. ... 24
-
-<p><ref target=ch7>VII</ref>. Wiskundige bijzonderheden.&mdash;Berekening van den inhoud des ballons.&mdash;De dubbele ballon.&mdash;Het omkleedsel.&mdash;Het schuitje.&mdash;De geheimzinnige toestel.&mdash;De levensmiddelen.&mdash;De optelling. ... 28
-
-<p><ref target=ch8>VIII</ref>. Gewicht van Joe.&mdash;De bevelhebber der Resolute.&mdash;Het tuighuis van Kennedy.&mdash;Vervoer.&mdash;Het afscheidsmaal.&mdash;Het vertrek van den 21<hi rend=sup>sten</hi> Februari.&mdash;Wetenschappelijke zittingen van den doctor.&mdash;Duveyrier, Livingstone.&mdash;Bijzonderheden der luchtreis.&mdash;Kennedy tot zwijgen gebracht. ... 32
-
-<p><ref target=ch9>IX</ref>. Men zeilt de Kaap om.&mdash;De potsenmaker voorin.&mdash;Cursus van wereldbeschrijving door Professor Joe.&mdash;Over de richting der ballons.&mdash;Over het zoeken der luchtstroomen.&mdash;<GR>E<'urhka</GR><corr>.</corr> ... 38
-
-<pb n=246 id=pb246><p><ref target=ch10>X</ref>. Voorafgaande proeven.&mdash;De vijf kisten van den doctor.&mdash;De warmteleider.&mdash;Wijze van uitvoering.&mdash;Zeer goede uitslag. ... 42
-
-<p><ref target=ch11>XI</ref>. Aankomst te Zanzibar.&mdash;De engelsche consul.&mdash;Slechte stemming der inwoners.&mdash;Het eiland Koumbeni.&mdash;De regenmakers.&mdash;Vulling van den ballon.&mdash;Vertrek op den 18<hi rend=sup>den</hi> April.&mdash;Laatst vaarwel.&mdash;De Victoria. ... 47
-
-<p><ref target=ch12>XII</ref>. Overtocht der zee-engte.&mdash;De Mrima.&mdash;Gesprekken van Dick en voorstel van Joe.&mdash;Recept voor koffie.&mdash;De Uzaramo.&mdash;De ongelukkige Maizan.&mdash;De berg Duthumi.&mdash;De kaarten van den doctor.&mdash;Nacht op een Konzenilje-Kaktus. ... 54
-
-<p><ref target=ch13>XIII</ref>. Verandering van weder.&mdash;Koorts van Kennedy.&mdash;Het geneesmiddel van den doctor.&mdash;Reizen te land.&mdash;De kom van Imengé.&mdash;De berg Rubeho.&mdash;Op zesduizend voet.&mdash;Een halt van een dag. ... 63
-
-<p><ref target=ch14>XIV</ref>. Het bosch van gomboomen.&mdash;De blauwe antiloop.&mdash;Het verzamelingsteeken.&mdash;Een onverwachte aanval.&mdash;De Kanyenye.&mdash;Een nacht in de lucht.&mdash;De Manunguru.&mdash;Jihoue la Mkao.&mdash;Voorraad water.&mdash;Aankomst te Kazeh. ... 68
-
-<p><ref target=ch15>XV</ref>. Kazeh.&mdash;De woelige markt.&mdash;Verschijning van den Victoria.&mdash;De Wanganga.&mdash;De zonen der Maan.&mdash;Wandeling des doctors.&mdash;Bevolking.&mdash;De koninklijke tembé.&mdash;De vrouwen des Sultans.&mdash;Eene koninklijke dronkenschap.&mdash;Joe wordt aangebeden.&mdash;Hoe men in de maan danst.&mdash;Omkeering.&mdash;Twee manen aan het uitspansel.&mdash;Vergankelijkheid der goddelijke grootheid. ... 75
-
-<p><ref target=ch16>XVI</ref>. Voorteeken van onweer.&mdash;Het land der Maan.&mdash;De toekomst van Afrika.&mdash;Het werktuig van het laatste uur.&mdash;Gezicht van het land bij ondergaande zon.&mdash;Bloemen en planten.&mdash;Het onweder.&mdash;De vuurgordel.&mdash;De sterrenhemel. ... 84
-
-<p><ref target=ch17>XVII</ref>. Het Maangebergte.&mdash;Een oceaan van groen.&mdash;Men werpt het anker.&mdash;De olifant als stoomsleper.&mdash;Onderhouden vuur.&mdash;Dood van het dier.&mdash;De veldoven.&mdash;Maaltijd op het gras&mdash;Een nacht op de aarde. ... 91
-
-<p><ref target=ch18>XVIII</ref>. Karagwah.&mdash;Het meer Ukeréoué.&mdash;Een nacht op een eiland.&mdash;De Evenaar.&mdash;Overtocht van het meer.&mdash;De watervallen.&mdash;Gezicht van het land.&mdash;De bronnen van den Nijl.&mdash;Het eiland Benga.&mdash;De handteekening van Andreas Debono.&mdash;Het Paviljoen met de wapenen van Engeland. ... 99
-
-<p><ref target=ch19>XIX</ref>. De Nijl.&mdash;De bevende berg.&mdash;Herinnering aan het land.&mdash;De verhalen der Arabieren.&mdash;De Nyam-Nyam.&mdash;Verstandige overleggingen van Joe.&mdash;De opstijging van luchtballons.&mdash;Mevrouw Blanchard. ... 107
-
-<p><ref target=ch20>XX</ref>. De hemelsche flesch.&mdash;De vijgepalmboomen.&mdash;De &ldquo;mammouthboomen.&rdquo;&mdash;De oorlogsboom.&mdash;Het gevleugelde span.&mdash;Gevecht van twee volksstammen.&mdash;Slachting.&mdash;Goddelijke tusschenkomst. ... 111
-
-<p><ref target=ch21>XXI</ref>. Vreemde geruchten.&mdash;Een nachtelijke aanval.&mdash;Kennedy en Joe in den boom.&mdash;Twee schoten.&mdash;Help! Help!&mdash;Antwoord in het Fransch.&mdash;De morgen.&mdash;De zendeling.&mdash;Het plan van redding. ... 116
-
-<p><ref target=ch22>XXII</ref>. Het electrieke licht.&mdash;De zendeling.&mdash;Ontroering te midden van een lichtstraal.&mdash;De lazaristenpriester.&mdash;Weinige hoop.&mdash;<pb n=247 id=pb247>Zorgen des doctors.&mdash;Een leven van verloochening.&mdash;Overtocht van een vulkaan. ... 123
-
-<p><ref target=ch23>XXIII</ref>. Toorn van Joe.&mdash;De dood eens rechtvaardigen.&mdash;De wacht bij het lijk.&mdash;Dorheid.&mdash;De begrafenis.&mdash;De stukken kwarts.&mdash;Zinsbedrog van Joe.&mdash;Een kostbare ballast.&mdash;Hoogte-opneming der goudbergen.&mdash;Begin der wanhoop van Joe. ... 130
-
-<p><ref target=ch24>XXIV</ref>. De wind gaat liggen.&mdash;Men nadert de woestijn.&mdash;De vermindering van den voorraad water.&mdash;De nachten onder den evenaar.&mdash;Ongerustheid van Samuel Ferguson.&mdash;Hoe de toestand is.&mdash;Krachtige antwoorden van Kennedy en Joe.&mdash;Nog een nacht. ... 136
-
-<p><ref target=ch25>XXV</ref>. Een weinig wijsbegeerte.&mdash;Een wolk aan den horizon.&mdash;Te midden van een mist.&mdash;De onverwachte ballon.&mdash;De teekens.&mdash;Nauwkeurig gezicht van den Victoria.&mdash;De palmboomen.&mdash;Spoor van eene karavaan.&mdash;De put in de woestijn. ... 142
-
-<p><ref target=ch26>XXVI</ref>. Honderd dertien graden.&mdash;Overdenkingen van den doctor.&mdash;Wanhopig zoeken.&mdash;De gaspijp gaat uit.&mdash;Honderd-twee-en-twintig graden.&mdash;De beschouwing der woestijn.&mdash;Eene wandeling in den nacht.&mdash;Eenzaamheid.&mdash;Bezuinigings ontwerpen van Joe.&mdash;Hij wil nog een dag wachten. ... 147
-
-<p><ref target=ch27>XXVII</ref>. Vreeslijke hitte.&mdash;Zinsbedrog.&mdash;De laatste droppels water.&mdash;Nachten van wanhoop.&mdash;Poging tot zelfmoord.&mdash;De Simoem.&mdash;De oase.&mdash;Leeuw en Leeuwin. ... 151
-
-<p><ref target=ch28>XXVIII</ref>. Aangename avond.&mdash;De keuken van Joe.&mdash;Verhandeling over rauw vleesch.&mdash;Geschiedenis van James Bruce.&mdash;Het bivouak.&mdash;De droomen van Joe.&mdash;De barometer daalt.&mdash;De barometer rijst.&mdash;Toebereidselen tot het vertrek.&mdash;De orkaan. ... 156
-
-<p><ref target=ch29>XXIX</ref>. Verschijnselen van plantengroei.&mdash;Phantastisch denkbeeld van een franschen schrijver.&mdash;Prachtig land.&mdash;Het koninkrijk Adamova.&mdash;De onderzoekingen van Burton en Speke vereenigd met die van Barth.&mdash;De bergen van Atlantika.&mdash;De rivier Benoké.&mdash;De stad Yola.&mdash;De Bagélé.&mdash;De berg Mendif. ... 161
-
-<p><ref target=ch30>XXX</ref>. Mosfeia.&mdash;De Scheik.&mdash;Denham, Clapperton, Oudney.&mdash;Vogel.&mdash;De hoofdstad van Loggoum.&mdash;Toole.&mdash;Windstilte boven Kernak.&mdash;De landvoogd en zijn hof.&mdash;De aanval.&mdash;De brandduiven. ... 167
-
-<p><ref target=ch31>XXXI</ref>. Vertrek in den nacht.&mdash;Alle drie.&mdash;Het instinct van Kennedy.&mdash;Voorzorgen.&mdash;De loop van den Shari.&mdash;Het meer Tchad.&mdash;Het water van het meer.&mdash;Het rivierpaard.&mdash;Een verloren kogel. ... 173
-
-<p><ref target=ch32>XXXII</ref>. De hoofdstad van Bornou.&mdash;De eilanden der Biddiomahs.&mdash;De Kondors.&mdash;De ongerustheid van den doctor.&mdash;Zijne voorzorgen.&mdash;Een aanval in de lucht.&mdash;Het gescheurde omkleedsel.&mdash;De val.&mdash;Verhevene opoffering.&mdash;De noordelijke kust van het meer. ... 176
-
-<p><ref target=ch33>XXXIII</ref>. Gissing.&mdash;Herstel van het evenwicht van de Victoria.&mdash;Nieuwe berekeningen van doctor Ferguson.&mdash;Jacht van Kennedy.&mdash;Volledig onderzoek van het meer Tchad.&mdash;Tangalia.&mdash;Terugkeer.&mdash;Lari. ... 182
-
-<p><ref target=ch34>XXXIV</ref>. De orkaan.&mdash;Gedwongen vertrek.&mdash;Verlies van een anker.&mdash;<pb n=248 id=pb248>Treurige overdenkingen.&mdash;Genomen besluit.&mdash;De hoos.&mdash;De verzwolgen karavaan.&mdash;Tegenwind en gunstige wind.&mdash;Terugkeer naar het Zuiden.&mdash;Kennedy op zijn post. ... 187
-
-<p><ref target=ch35>XXXV</ref>. Geschiedenis van Joe.&mdash;Het eiland der Biddiomahs.&mdash;De aanbidding.&mdash;Het verzwolgen eiland.&mdash;De oever van het meer.&mdash;De slangenboom.&mdash;Voetreis.&mdash;Lijden.&mdash;Muskieten en mieren.&mdash;Voorbijgang van den Victoria.&mdash;Verdwijning van den Victoria.&mdash;Wanhoop.&mdash;Het moeras.&mdash;Een laatste kreet. ... 191
-
-<p><ref target=ch36>XXXVI</ref>. Eene verzameling aan den horizon.&mdash;Een troep Arabieren.&mdash;De vervolging.&mdash;Hij is het!&mdash;Val van het paard.&mdash;De gewurgde Arabier.&mdash;Een kogel van Kennedy.&mdash;Manoeuvreeren.&mdash;Ontvoering in de vlucht.&mdash;Joe wordt gered. ... 199
-
-<p><ref target=ch37>XXXVII</ref>. De weg naar het westen.&mdash;Het ontwaken van Joe.&mdash;Zijne koppigheid.&mdash;Einde der geschiedenis van Joe.&mdash;Tagelet.&mdash;Ongerustheid van Kennedy.&mdash;Weg naar het noorden.&mdash;Een nacht dicht bij Aghadés. ... 203
-
-<p><ref target=ch38>XXXVIII</ref>. Snelle tocht.&mdash;Voorzichtige besluiten.&mdash;Aanhoudende <corr sic=plasreregens>plasregens</corr>.&mdash;Gao.&mdash;De Niger.&mdash;Golberry, Geoffroy, Gray.&mdash;Mungo-Park.&mdash;Laing.&mdash;Réné Gaillié.&mdash;Clapperton.&mdash;John en Richard Lander. ... 208
-
-<p><ref target=ch39>XXXIX</ref>. Het land van den elleboog van den Niger.&mdash;Phantastisch gezicht van het gebergte Homberi.&mdash;Kabra.&mdash;Tombuctou.&mdash;Plan van doctor Barth.&mdash;Val.&mdash;Waarheen de hemel wil. ... 215
-
-<p><ref target=ch40>XL</ref>. Ongerustheid van doctor Ferguson&mdash;Standvastige richting naar het zuiden.&mdash;Eene wolk sprinkhanen.&mdash;Gezicht van Jenné.&mdash;Gezicht van Ségo.&mdash;Verandering van wind.&mdash;Verdriet van Joe. ... 219
-
-<p><ref target=ch41>XLI</ref>. Men nadert den Senegal.&mdash;De Victoria daalt meer en meer.&mdash;Men werpt steeds ballast uit.&mdash;De marabout El-Hadji.&mdash;De heeren Pascal, Vincent, Lambert.&mdash;Een mededinger van Mohammed.&mdash;De moeielijk te beklimmen bergen.&mdash;De wapenen van Kennedy.&mdash;Een manoeuvre van Joe.&mdash;Halt boven een woud. ... 223
-
-<p><ref target=ch42>XLII</ref>. Edelmoedige strijd.&mdash;Laatste opoffering.&mdash;De toestel tot uitzetting.&mdash;Behendigheid van Joe.&mdash;Middernacht.&mdash;De wacht van den doctor.&mdash;Hij slaapt in.&mdash;De brand.&mdash;Het gehuil.&mdash;Buiten bereik. ... 228
-
-<p><ref target=ch43>XLIII</ref>. De Talibas.&mdash;De vervolging.&mdash;Een verwoest land.&mdash;De Victoria daalt.&mdash;De laatste mondbehoeften.&mdash;De sprongen van den Victoria.&mdash;Verdediging met geweerschoten.&mdash;De wind wakkert aan.&mdash;De rivier Senegal.&mdash;De watervallen van Gouina.&mdash;De heete lucht.&mdash;Overtocht der rivier. ... 232
-
-<p><ref target=ch44>XLIV</ref>. Besluit.&mdash;Het proces-verbaal.&mdash;De fransche etablissementen.&mdash;De post van Medina.&mdash;De Basilic.&mdash;Saint-Louis.&mdash;Het Engelsche fregat.&mdash;Terugkeer naar Londen. ... 239
-
+<list type=tocList>
+<item><ab type=tocDivNum>Hoofdst.</ab>  <ab type=tocPageNum>Blz.</ab>
+<item><ab type=tocDivNum><ref target=ch1>I</ref>.</ab> Einde van eene zeer toegejuichte redevoering.&mdash;Voorstelling van doctor Ferguson.&mdash;&ldquo;Excelsior.&rdquo;&mdash;Persoonsbeschrijving van den doctor.&mdash;Een overtuigd fatalist.&mdash;Maaltijden in den <hi>Club der Reizigers.</hi>&mdash;Tallooze toosten. ... <ab type=tocPageNum>1</ab>
+<item><ab type=tocDivNum><ref target=ch2>II</ref>.</ab> Een artikel van den &ldquo;<foreign lang=en>Daily Telegraph</foreign>.&rdquo;&mdash;Oorlog der geleerde dagbladen.&mdash;De heer Petermann ondersteunt zijn vriend Dr. Ferguson.&mdash;Antwoord van den geleerden Koner.&mdash;Aangegane weddenschappen.&mdash;Verschillende voorstellen aan Ferguson gedaan. ... <ab type=tocPageNum>6</ab>
+<item><ab type=tocDivNum><ref target=ch3>III</ref>.</ab> De vriend van den doctor.&mdash;Van welken tijd hunne vriendschap dagteekende.&mdash;Dick Kennedy te Londen.&mdash;Onverwacht, maar niet geruststellend voorstel.&mdash;Weinig troostend spreekwoord.&mdash;Eenige namen uit het martelaarsboek van Afrika.&mdash;Voordeelen van een luchtballon.&mdash;Het geheim van doctor Ferguson. ... <ab type=tocPageNum>9</ab>
+<item><ab type=tocDivNum><ref target=ch4>IV</ref>.</ab> Afrikaansche onderzoekingen.&mdash;Barth, Richardson, Overweg, Werne, Brun-Rollet, Peney, Andrea Debono, Miani, Guillaume Lejean, Bruce, Krapf en Rebmann, Maizan, Roscher, Burton en Speke. ... <ab type=tocPageNum>15</ab>
+<item><ab type=tocDivNum><ref target=ch5>V</ref>.</ab> Droomen van Kennedy.&mdash;Lidwoorden en voornaamwoorden in het meervoud.&mdash;Vleierijen van Dick.&mdash;Wandeling over de kaart van Afrika.&mdash;Wat er tusschen de twee punten van den passer blijft.&mdash;Hedendaagsche tochten.&mdash;Speke en Grant.&mdash;Krapf, de Decken, de Heuglin. ... <ab type=tocPageNum>19</ab>
+<item><ab type=tocDivNum><ref target=ch6>VI</ref>.</ab> Een ongewoon bediende.&mdash;Hij ziet de wachters van Jupiter.&mdash;Dick en Joe twisten.&mdash;De twijfel en het geloof.&mdash;De weging.&mdash;Joe Wellington.&mdash;Hij ontvangt eene halve kroon. ... <ab type=tocPageNum>24</ab>
+<item><ab type=tocDivNum><ref target=ch7>VII</ref>.</ab> Wiskundige bijzonderheden.&mdash;Berekening van den inhoud des ballons.&mdash;De dubbele ballon.&mdash;Het omkleedsel.&mdash;Het schuitje.&mdash;De geheimzinnige toestel.&mdash;De levensmiddelen.&mdash;De optelling. ... <ab type=tocPageNum>28</ab>
+<item><ab type=tocDivNum><ref target=ch8>VIII</ref>.</ab> Gewicht van Joe.&mdash;De bevelhebber der Resolute.&mdash;Het tuighuis van Kennedy.&mdash;Vervoer.&mdash;Het afscheidsmaal.&mdash;Het vertrek van den 21<hi rend=sup>sten</hi> Februari.&mdash;Wetenschappelijke zittingen van den doctor.&mdash;Duveyrier, Livingstone.&mdash;Bijzonderheden der luchtreis.&mdash;Kennedy tot zwijgen gebracht. ... <ab type=tocPageNum>32</ab>
+<item><ab type=tocDivNum><ref target=ch9>IX</ref>.</ab> Men zeilt de Kaap om.&mdash;De potsenmaker voorin.&mdash;Cursus van wereldbeschrijving door Professor Joe.&mdash;Over de richting der ballons.&mdash;Over het zoeken der luchtstroomen.&mdash;<GR>E<'urhka</GR><corr>.</corr> ... <ab type=tocPageNum>38</ab>
+<pb n=246 id=pb246><item><ab type=tocDivNum><ref target=ch10>X</ref>.</ab> Voorafgaande proeven.&mdash;De vijf kisten van den doctor.&mdash;De warmteleider.&mdash;Wijze van uitvoering.&mdash;Zeer goede uitslag. ... <ab type=tocPageNum>42</ab>
+<item><ab type=tocDivNum><ref target=ch11>XI</ref>.</ab> Aankomst te Zanzibar.&mdash;De engelsche consul.&mdash;Slechte stemming der inwoners.&mdash;Het eiland Koumbeni.&mdash;De regenmakers.&mdash;Vulling van den ballon.&mdash;Vertrek op den 18<hi rend=sup>den</hi> April.&mdash;Laatst vaarwel.&mdash;De Victoria. ... <ab type=tocPageNum>47</ab>
+<item><ab type=tocDivNum><ref target=ch12>XII</ref>.</ab> Overtocht der zee-engte.&mdash;De Mrima.&mdash;Gesprekken van Dick en voorstel van Joe.&mdash;Recept voor koffie.&mdash;De Uzaramo.&mdash;De ongelukkige Maizan.&mdash;De berg Duthumi.&mdash;De kaarten van den doctor.&mdash;Nacht op een Konzenilje-Kaktus. ... <ab type=tocPageNum>54</ab>
+<item><ab type=tocDivNum><ref target=ch13>XIII</ref>.</ab> Verandering van weder.&mdash;Koorts van Kennedy.&mdash;Het geneesmiddel van den doctor.&mdash;Reizen te land.&mdash;De kom van Imengé.&mdash;De berg Rubeho.&mdash;Op zesduizend voet.&mdash;Een halt van een dag. ... <ab type=tocPageNum>63</ab>
+<item><ab type=tocDivNum><ref target=ch14>XIV</ref>.</ab> Het bosch van gomboomen.&mdash;De blauwe antiloop.&mdash;Het verzamelingsteeken.&mdash;Een onverwachte aanval.&mdash;De Kanyenye.&mdash;Een nacht in de lucht.&mdash;De Manunguru.&mdash;Jihoue la Mkao.&mdash;Voorraad water.&mdash;Aankomst te Kazeh. ... <ab type=tocPageNum>68</ab>
+<item><ab type=tocDivNum><ref target=ch15>XV</ref>.</ab> Kazeh.&mdash;De woelige markt.&mdash;Verschijning van den Victoria.&mdash;De Wanganga.&mdash;De zonen der Maan.&mdash;Wandeling des doctors.&mdash;Bevolking.&mdash;De koninklijke tembé.&mdash;De vrouwen des Sultans.&mdash;Eene koninklijke dronkenschap.&mdash;Joe wordt aangebeden.&mdash;Hoe men in de maan danst.&mdash;Omkeering.&mdash;Twee manen aan het uitspansel.&mdash;Vergankelijkheid der goddelijke grootheid. ... <ab type=tocPageNum>75</ab>
+<item><ab type=tocDivNum><ref target=ch16>XVI</ref>.</ab> Voorteeken van onweer.&mdash;Het land der Maan.&mdash;De toekomst van Afrika.&mdash;Het werktuig van het laatste uur.&mdash;Gezicht van het land bij ondergaande zon.&mdash;Bloemen en planten.&mdash;Het onweder.&mdash;De vuurgordel.&mdash;De sterrenhemel. ... <ab type=tocPageNum>84</ab>
+<item><ab type=tocDivNum><ref target=ch17>XVII</ref>.</ab> Het Maangebergte.&mdash;Een oceaan van groen.&mdash;Men werpt het anker.&mdash;De olifant als stoomsleper.&mdash;Onderhouden vuur.&mdash;Dood van het dier.&mdash;De veldoven.&mdash;Maaltijd op het gras&mdash;Een nacht op de aarde. ... <ab type=tocPageNum>91</ab>
+<item><ab type=tocDivNum><ref target=ch18>XVIII</ref>.</ab> Karagwah.&mdash;Het meer Ukeréoué.&mdash;Een nacht op een eiland.&mdash;De Evenaar.&mdash;Overtocht van het meer.&mdash;De watervallen.&mdash;Gezicht van het land.&mdash;De bronnen van den Nijl.&mdash;Het eiland Benga.&mdash;De handteekening van Andreas Debono.&mdash;Het Paviljoen met de wapenen van Engeland. ... <ab type=tocPageNum>99</ab>
+<item><ab type=tocDivNum><ref target=ch19>XIX</ref>.</ab> De Nijl.&mdash;De bevende berg.&mdash;Herinnering aan het land.&mdash;De verhalen der Arabieren.&mdash;De Nyam-Nyam.&mdash;Verstandige overleggingen van Joe.&mdash;De opstijging van luchtballons.&mdash;Mevrouw Blanchard. ... <ab type=tocPageNum>107</ab>
+<item><ab type=tocDivNum><ref target=ch20>XX</ref>.</ab> De hemelsche flesch.&mdash;De vijgepalmboomen.&mdash;De &ldquo;mammouthboomen.&rdquo;&mdash;De oorlogsboom.&mdash;Het gevleugelde span.&mdash;Gevecht van twee volksstammen.&mdash;Slachting.&mdash;Goddelijke tusschenkomst. ... <ab type=tocPageNum>111</ab>
+<item><ab type=tocDivNum><ref target=ch21>XXI</ref>.</ab> Vreemde geruchten.&mdash;Een nachtelijke aanval.&mdash;Kennedy en Joe in den boom.&mdash;Twee schoten.&mdash;Help! Help!&mdash;Antwoord in het Fransch.&mdash;De morgen.&mdash;De zendeling.&mdash;Het plan van redding. ... <ab type=tocPageNum>116</ab>
+<item><ab type=tocDivNum><ref target=ch22>XXII</ref>.</ab> Het electrieke licht.&mdash;De zendeling.&mdash;Ontroering te midden van een lichtstraal.&mdash;De lazaristenpriester.&mdash;Weinige hoop.&mdash;<pb n=247 id=pb247>Zorgen des doctors.&mdash;Een leven van verloochening.&mdash;Overtocht van een vulkaan. ... <ab type=tocPageNum>123</ab>
+<item><ab type=tocDivNum><ref target=ch23>XXIII</ref>.</ab> Toorn van Joe.&mdash;De dood eens rechtvaardigen.&mdash;De wacht bij het lijk.&mdash;Dorheid.&mdash;De begrafenis.&mdash;De stukken kwarts.&mdash;Zinsbedrog van Joe.&mdash;Een kostbare ballast.&mdash;Hoogte-opneming der goudbergen.&mdash;Begin der wanhoop van Joe. ... <ab type=tocPageNum>130</ab>
+<item><ab type=tocDivNum><ref target=ch24>XXIV</ref>.</ab> De wind gaat liggen.&mdash;Men nadert de woestijn.&mdash;De vermindering van den voorraad water.&mdash;De nachten onder den evenaar.&mdash;Ongerustheid van Samuel Ferguson.&mdash;Hoe de toestand is.&mdash;Krachtige antwoorden van Kennedy en Joe.&mdash;Nog een nacht. ... <ab type=tocPageNum>136</ab>
+<item><ab type=tocDivNum><ref target=ch25>XXV</ref>.</ab> Een weinig wijsbegeerte.&mdash;Een wolk aan den horizon.&mdash;Te midden van een mist.&mdash;De onverwachte ballon.&mdash;De teekens.&mdash;Nauwkeurig gezicht van den Victoria.&mdash;De palmboomen.&mdash;Spoor van eene karavaan.&mdash;De put in de woestijn. ... <ab type=tocPageNum>142</ab>
+<item><ab type=tocDivNum><ref target=ch26>XXVI</ref>.</ab> Honderd dertien graden.&mdash;Overdenkingen van den doctor.&mdash;Wanhopig zoeken.&mdash;De gaspijp gaat uit.&mdash;Honderd-twee-en-twintig graden.&mdash;De beschouwing der woestijn.&mdash;Eene wandeling in den nacht.&mdash;Eenzaamheid.&mdash;Bezuinigings ontwerpen van Joe.&mdash;Hij wil nog een dag wachten. ... <ab type=tocPageNum>147</ab>
+<item><ab type=tocDivNum><ref target=ch27>XXVII</ref>.</ab> Vreeslijke hitte.&mdash;Zinsbedrog.&mdash;De laatste droppels water.&mdash;Nachten van wanhoop.&mdash;Poging tot zelfmoord.&mdash;De Simoem.&mdash;De oase.&mdash;Leeuw en Leeuwin. ... <ab type=tocPageNum>151</ab>
+<item><ab type=tocDivNum><ref target=ch28>XXVIII</ref>.</ab> Aangename avond.&mdash;De keuken van Joe.&mdash;Verhandeling over rauw vleesch.&mdash;Geschiedenis van James Bruce.&mdash;Het bivouak.&mdash;De droomen van Joe.&mdash;De barometer daalt.&mdash;De barometer rijst.&mdash;Toebereidselen tot het vertrek.&mdash;De orkaan. ... <ab type=tocPageNum>156</ab>
+<item><ab type=tocDivNum><ref target=ch29>XXIX</ref>.</ab> Verschijnselen van plantengroei.&mdash;Phantastisch denkbeeld van een franschen schrijver.&mdash;Prachtig land.&mdash;Het koninkrijk Adamova.&mdash;De onderzoekingen van Burton en Speke vereenigd met die van Barth.&mdash;De bergen van Atlantika.&mdash;De rivier Benoké.&mdash;De stad Yola.&mdash;De Bagélé.&mdash;De berg Mendif. ... <ab type=tocPageNum>161</ab>
+<item><ab type=tocDivNum><ref target=ch30>XXX</ref>.</ab> Mosfeia.&mdash;De Scheik.&mdash;Denham, Clapperton, Oudney.&mdash;Vogel.&mdash;De hoofdstad van Loggoum.&mdash;Toole.&mdash;Windstilte boven Kernak.&mdash;De landvoogd en zijn hof.&mdash;De aanval.&mdash;De brandduiven. ... <ab type=tocPageNum>167</ab>
+<item><ab type=tocDivNum><ref target=ch31>XXXI</ref>.</ab> Vertrek in den nacht.&mdash;Alle drie.&mdash;Het instinct van Kennedy.&mdash;Voorzorgen.&mdash;De loop van den Shari.&mdash;Het meer Tchad.&mdash;Het water van het meer.&mdash;Het rivierpaard.&mdash;Een verloren kogel. ... <ab type=tocPageNum>173</ab>
+<item><ab type=tocDivNum><ref target=ch32>XXXII</ref>.</ab> De hoofdstad van Bornou.&mdash;De eilanden der Biddiomahs.&mdash;De Kondors.&mdash;De ongerustheid van den doctor.&mdash;Zijne voorzorgen.&mdash;Een aanval in de lucht.&mdash;Het gescheurde omkleedsel.&mdash;De val.&mdash;Verhevene opoffering.&mdash;De noordelijke kust van het meer. ... <ab type=tocPageNum>176</ab>
+<item><ab type=tocDivNum><ref target=ch33>XXXIII</ref>.</ab> Gissing.&mdash;Herstel van het evenwicht van de Victoria.&mdash;Nieuwe berekeningen van doctor Ferguson.&mdash;Jacht van Kennedy.&mdash;Volledig onderzoek van het meer Tchad.&mdash;Tangalia.&mdash;Terugkeer.&mdash;Lari. ... <ab type=tocPageNum>182</ab>
+<item><ab type=tocDivNum><ref target=ch34>XXXIV</ref>.</ab> De orkaan.&mdash;Gedwongen vertrek.&mdash;Verlies van een anker.&mdash;<pb n=248 id=pb248>Treurige overdenkingen.&mdash;Genomen besluit.&mdash;De hoos.&mdash;De verzwolgen karavaan.&mdash;Tegenwind en gunstige wind.&mdash;Terugkeer naar het Zuiden.&mdash;Kennedy op zijn post. ... <ab type=tocPageNum>187</ab>
+<item><ab type=tocDivNum><ref target=ch35>XXXV</ref>.</ab> Geschiedenis van Joe.&mdash;Het eiland der Biddiomahs.&mdash;De aanbidding.&mdash;Het verzwolgen eiland.&mdash;De oever van het meer.&mdash;De slangenboom.&mdash;Voetreis.&mdash;Lijden.&mdash;Muskieten en mieren.&mdash;Voorbijgang van den Victoria.&mdash;Verdwijning van den Victoria.&mdash;Wanhoop.&mdash;Het moeras.&mdash;Een laatste kreet. ... <ab type=tocPageNum>191</ab>
+<item><ab type=tocDivNum><ref target=ch36>XXXVI</ref>.</ab> Eene verzameling aan den horizon.&mdash;Een troep Arabieren.&mdash;De vervolging.&mdash;Hij is het!&mdash;Val van het paard.&mdash;De gewurgde Arabier.&mdash;Een kogel van Kennedy.&mdash;Manoeuvreeren.&mdash;Ontvoering in de vlucht.&mdash;Joe wordt gered. ... <ab type=tocPageNum>199</ab>
+<item><ab type=tocDivNum><ref target=ch37>XXXVII</ref>.</ab> De weg naar het westen.&mdash;Het ontwaken van Joe.&mdash;Zijne koppigheid.&mdash;Einde der geschiedenis van Joe.&mdash;Tagelet.&mdash;Ongerustheid van Kennedy.&mdash;Weg naar het noorden.&mdash;Een nacht dicht bij Aghadés. ... <ab type=tocPageNum>203</ab>
+<item><ab type=tocDivNum><ref target=ch38>XXXVIII</ref>.</ab> Snelle tocht.&mdash;Voorzichtige besluiten.&mdash;Aanhoudende <corr sic=plasreregens>plasregens</corr>.&mdash;Gao.&mdash;De Niger.&mdash;Golberry, Geoffroy, Gray.&mdash;Mungo-Park.&mdash;Laing.&mdash;Réné Gaillié.&mdash;Clapperton.&mdash;John en Richard Lander. ... <ab type=tocPageNum>208</ab>
+<item><ab type=tocDivNum><ref target=ch39>XXXIX</ref>.</ab> Het land van den elleboog van den Niger.&mdash;Phantastisch gezicht van het gebergte Homberi.&mdash;Kabra.&mdash;Tombuctou.&mdash;Plan van doctor Barth.&mdash;Val.&mdash;Waarheen de hemel wil. ... <ab type=tocPageNum>215</ab>
+<item><ab type=tocDivNum><ref target=ch40>XL</ref>.</ab> Ongerustheid van doctor Ferguson&mdash;Standvastige richting naar het zuiden.&mdash;Eene wolk sprinkhanen.&mdash;Gezicht van Jenné.&mdash;Gezicht van Ségo.&mdash;Verandering van wind.&mdash;Verdriet van Joe. ... <ab type=tocPageNum>219</ab>
+<item><ab type=tocDivNum><ref target=ch41>XLI</ref>.</ab> Men nadert den Senegal.&mdash;De Victoria daalt meer en meer.&mdash;Men werpt steeds ballast uit.&mdash;De marabout El-Hadji.&mdash;De heeren Pascal, Vincent, Lambert.&mdash;Een mededinger van Mohammed.&mdash;De moeielijk te beklimmen bergen.&mdash;De wapenen van Kennedy.&mdash;Een manoeuvre van Joe.&mdash;Halt boven een woud. ... <ab type=tocPageNum>223</ab>
+<item><ab type=tocDivNum><ref target=ch42>XLII</ref>.</ab> Edelmoedige strijd.&mdash;Laatste opoffering.&mdash;De toestel tot uitzetting.&mdash;Behendigheid van Joe.&mdash;Middernacht.&mdash;De wacht van den doctor.&mdash;Hij slaapt in.&mdash;De brand.&mdash;Het gehuil.&mdash;Buiten bereik. ... <ab type=tocPageNum>228</ab>
+<item><ab type=tocDivNum><ref target=ch43>XLIII</ref>.</ab> De Talibas.&mdash;De vervolging.&mdash;Een verwoest land.&mdash;De Victoria daalt.&mdash;De laatste mondbehoeften.&mdash;De sprongen van den Victoria.&mdash;Verdediging met geweerschoten.&mdash;De wind wakkert aan.&mdash;De rivier Senegal.&mdash;De watervallen van Gouina.&mdash;De heete lucht.&mdash;Overtocht der rivier. ... <ab type=tocPageNum>232</ab>
+<item><ab type=tocDivNum><ref target=ch44>XLIV</ref>.</ab> Besluit.&mdash;Het proces-verbaal.&mdash;De fransche etablissementen.&mdash;De post van Medina.&mdash;De Basilic.&mdash;Saint-Louis.&mdash;Het Engelsche fregat.&mdash;Terugkeer naar Londen. ... <ab type=tocPageNum>239</ab>
+</list>
 
 
 
@@ -2349,63 +2335,43 @@
 <p>De <hi rend=bold>werken</hi> van <hi rend=bold>Jules Verne</hi> <hi>zijn alom afzonderlijk verkrijgbaar in post</hi> 8<hi rend=sup>0</hi>. <hi rend=bold>boekdeelen</hi> van <hi rend=bold>200 bladz.</hi> met <hi rend=bold>50</hi> à <hi rend=bold>60</hi> fraaie <hi rend=bold>Houtgravures</hi> à &florin; <hi rend=bold>1,50,</hi> in linnen &florin; <hi rend=bold>1,75.</hi>
 
 
-
-
 <pb>
 
-<p>De Reis om de Wereld in 80 dagen.
+<p><xref url="pg:11318">DE REIS OM DE WERELD IN 80 DAGEN</xref>. 5e druk. Met 52 houtgravuren ... &florin; 1.50.
 
-<p>5e druk. Met 52 houtgravuren ... &florin; 1.50.
+<p><xref url="pg:27309">DE REIS NAAR DE MAAN IN 28 DAGEN EN 12 UREN</xref>. 2e druk. Met 60 houtgravuren ... &florin; 1.50.
 
-<p>De Reis naar de Maan in 28 dagen en 12 uren.
+<p>DE KINDEREN VAN KAPITEIN GRANT. Zuid-Amerika. Met 60 houtgravuren ... &florin; 1.50.
 
-<p>2e druk. Met 60 houtgravuren ... &florin; 1.50.
+<p>DE KINDEREN VAN KAPITEIN GRANT. Australië. Met 50 houtgravuren ... &florin; 1.50.
 
-<p>De Kinderen van Kapitein Grant. Zuid-Amerika.
+<p>DE KINDEREN VAN KAPITEIN GRANT. Stille Z.-Zee. Met 52 houtgravuren ... &florin; 1.50.
 
-<p>Met 60 houtgravuren ... &florin; 1.50.
+<p><xref url="pg:11205">20,000 MIJLEN ONDER ZEE</Xref>. Oost. Halfrond. Met 50 houtgravuren ... &florin; 1.50.
 
-<p>De Kinderen van Kapitein Grant. Australië.
+<p><xref url="pg:11393">20,000 MIJLEN ONDER ZEE</xref>. West. Halfrond. Met 60 houtgravuren ... &florin; 1.50.
 
-<p>Met 50 houtgravuren ... &florin; 1.50.
+<p><xref url="pg:19086">VIJF WEKEN IN EEN LUCHTBALLON</xref>. Ontdekkingsreis in de Binnenlanden van Afrika. Met 75 houtgravuren ... &florin; 1.50.
 
-<p>De Kinderen van Kapitein Grant. Stille Z.-Zee.
+<p><xref url="pg:20331">HET GEHEIMZINNIGE EILAND</xref>. De Luchtschipbreukelingen. Met 54 houtgravuren ... &florin; 1.50.
 
-<p>Met 52 houtgravuren ... &florin; 1.50.
+<p><xref url="pg:22580">HET GEHEIMZINNIGE EILAND</xref>. De verlatene. Met 54 houtgravuren ... &florin; 1.50.
 
-<p>20,000 mijlen onder Zee. Oost. Halfrond.
+<p><xref url="pg:10349">NAAR HET MIDDELPUNT DER AARDE</xref>. Met 53 houtgravuren ... &florin; 1.50.
 
-<p>Met 50 houtgravuren ... &florin; 1.50.
+<p><xref url="pg:79379">MICHAEL STROGOFF</xref>. De Koerier van den Czaar. Met 60 houtgravuren ... &florin; 1.50.
 
-<p>20,000 Mijlen onder Zee. West. Halfrond.
+<p>HET ZWARTE GOUD. Met 55 houtgravuren ... &florin; 1.50.
 
-<p>Met 60 houtgravuren ... &florin; 1.50.
-
-<p>Vijf Weken in een Luchtballon. Ontdekkingsreis in de Binnenlanden van Afrika. Met 75 houtgravuren ... &florin; 1.50.
-
-<p>Het Geheimzinnige Eiland. De Luchtschipbreukelingen.
-
-<p>Met 54 houtgravuren ... &florin; 1.50.
-
-<p>Het Geheimzinnige Eiland. De verlatene.
-
-<p>Met 54 houtgravuren ... &florin; 1.50.
-
-<p>Naar het Middelpunt der Aarde.
-
-<p>Met 53 houtgravuren ... &florin; 1.50.
-
-<p>Michael Strogoff. De Koerier van den Czaar.
-
-<p>Met 60 houtgravuren ... &florin; 1.50.
-
-<p>Het Zwarte Goud.
-
-<p>Met 55 houtgravuren ... &florin; 1.50.
 
 <p>Ter perse:
 
-<p>Hector Servadac.
+<list>
+    <item>Hector Servadac.
+</list>
+
+
+<div1 id=back2 type=Cover>
 
 
 <p><figure id=spine>
